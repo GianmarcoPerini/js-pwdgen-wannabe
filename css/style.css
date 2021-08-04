@@ -29,14 +29,14 @@ a{
     color: black
 }
 
+.container{
+    padding-bottom: 50px;
+    background-color: #0e353d;
+}
+
 .generatore{
     color: white;
     font-weight: bold;
-}
-
-.container{
-    height: 100vh;
-    background-color: #0e353d;
 }
 
 .nav ol{
@@ -65,4 +65,57 @@ a{
 
 .prg{
     font-size: 1.5em;
+}
+
+
+    /* BONUS */
+
+.B-container{
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+}
+
+.bonus{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.merce{
+    display: flex;
+    align-items: baseline;
+    color: white;
+    padding: 10px;
+}
+
+
+.lista{
+    flex: 2 0 1px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.euro{
+    flex: 1 0 1px;
+    text-align: end
+
+}
+.pezzi{
+    flex: 1 0 1px;
+    text-align: end
+}
+
+.tot{
+    margin-top: 30px;
+}
+
+.tot :last-child{
+    padding-top: 10px;
+}
+
+.merce--totale h1{
+    font-size: 2em
+}
+
+.mt-1{
+    margin-top: 30px
 }

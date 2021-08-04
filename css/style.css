@@ -21,8 +21,6 @@ header{
 main{
     display: flex;
     justify-content: center;
-    height: 100vh;
-    background-color: #0e353d;
     padding-top: 50px;
 }
 
@@ -36,9 +34,8 @@ a{
 }
 
 .container{
-    width: 50%;
     height: 100vh;
-    margin: 0 auto;
+    background-color: #0e353d;
 }
 
 .nav ol{
